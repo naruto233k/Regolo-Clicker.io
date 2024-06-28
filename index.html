@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clicker Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game-container">
+        <h1>Clicker Game</h1>
+        <div id="score-container">
+            <p>Score: <span id="score">0</span></p>
+            <p>Time Played: <span id="time-played">00:00</span></p>
+        </div>
+        <button id="click-button">Click Me!</button>
+        <button id="upgrade-click">Upgrade Click</button>
+        <button id="auto-clicker">Buy Auto-Clicker</button>
+        <div id="achievements-container">
+            <h2>Achievements</h2>
+            <ul id="achievements-list">
+                <!-- Achievements will be listed here -->
+            </ul>
+        </div>
+        <div id="inventory-container">
+            <h2>Inventory</h2>
+            <ul id="inventory-list">
+                <!-- Inventory items will be listed here -->
+            </ul>
+        </div>
+    </div>
+    <audio id="click-sound" src="click.mp3"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
